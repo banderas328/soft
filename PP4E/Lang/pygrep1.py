@@ -57,15 +57,15 @@ The next script searches for patterns in a set of files, much like the grep
 command-line program. We wrote file and directory searchers earlier in Chapter 6. 
 Here, the file searches look for patterns rather than simple strings, as coded in
 Example 19-8. The patterns are typed interactively, separated by a space, and the
-files to be searched are specified by an input pattern for Python’s glob.glob 
+files to be searched are specified by an input pattern for Pythonï¿½s glob.glob 
 filename expansion tool that we studied earlier.
 
 Example 19-8 (PP4E\Lang\pygrep1.py)
 
-Here’s what a typical run of this script looks like, scanning old versions of some 
+Hereï¿½s what a typical run of this script looks like, scanning old versions of some 
 of the source files in this chapter; it searches all Python files in the current 
 directory for two different patterns, compiled for speed. Notice that files are 
-named by a pattern too—Python’s glob module also uses re internally:
+named by a pattern tooï¿½Pythonï¿½s glob module also uses re internally:
 
 C:\...\PP4E\Lang> python pygrep1.py
 patterns? >import.*string spam
@@ -86,6 +86,6 @@ files? >*.py
 [summer.py]
 0002) import string
 
-[__init__.py]
+[tester.py]
 -----------------------------------------------------------------------------------
 """

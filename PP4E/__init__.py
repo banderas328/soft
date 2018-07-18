@@ -54,5 +54,5 @@ fully-specified package imports; the PP4E root will avoid name
 conflicts with other code, and fully-specified imports are not
 dependent on the importing file's location.  Each subdirectory 
 in this tree that has importable modules also has the required 
-__init__.py file.
+tester.py file.
 """
